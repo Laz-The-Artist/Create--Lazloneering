@@ -59,11 +59,11 @@ description='''${mod_description}'''
     modId="create"
     mandatory=true
     versionRange="[0.5.1.e,)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 [[dependencies.${mod_id}]]
     modId="railways"
     mandatory=true
     versionRange="[1.5.3,)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
